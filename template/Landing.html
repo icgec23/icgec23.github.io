@@ -13,31 +13,43 @@
     .landing>header {
         background-color: rgba(0, 0, 0, 0.8);
     }
+
+    .my-container {
+        --bs-gutter-x: 35rem;
+        --bs-gutter-y: 0;
+        width: 100%;
+        padding-right: calc(var(--bs-gutter-x) * 0.5);
+        padding-left: calc(var(--bs-gutter-x) * 0.5);
+        margin-right: auto;
+        margin-left: auto;
+    }
 </style>
 <div>
     
 </div>
 <div class="landing position-relative vh-50 vh-xxl-75">
-    <div class="position-absolute text-end text-primary bottom-0 end-0 text-end" style="margin-bottom: 0vh;font-size: xx-small;">
-        <a href="https://commons.wikimedia.org/wiki/File:Kaohsiung_Skyline_2020.jpg">毛貓大少爺</a>
-        <a href="https://creativecommons.org/licenses/by-sa/2.0">CC BY-SA 2.0</a>
-        , via Wikimedia Commons"
+    <div class="position-absolute text-end text-black-50 bottom-0 end-0 text-end" style="margin-bottom: 0vh;font-size: xx-small;">
+        <a style="color:rgba(192, 192, 192, 0.4)" href="https://commons.wikimedia.org/wiki/File:Kaohsiung_Skyline_2020.jpg">毛貓大少爺</a>
+        <a style="color:rgba(192, 192, 192, 0.4)" href="https://creativecommons.org/licenses/by-sa/2.0">CC BY-SA 2.0</a>&nbsp;
     </div>
     <header class="position-absolute bottom-0 end-0 p-3 pe-5 text-white text-end" style="margin-bottom: 15vh;">
         <div class="d-inline text-white-50 fw-light fs-2">
-            <strong class="text-white fw-bold fs-2">ICGEC-2023</strong>
+            <strong class="text-white fw-bold fs-2">ICGEC-2023</strong><br>
             The 14th International Conference on<br> Genetic and Evolutionary Computing
         </div>
-        <div class="mt-2 fw-light fs-5">October 06-08, 2023, Kaohsiung,Taiwan<span class="text-success">(Online)</span>
+        <div class="mt-2 fw-light fs-5">October 06-08, 2023, Kaohsiung,Taiwan&nbsp;<span class="text-success">(Hybrid)</span>
         </div>
     </header>
 </div>
-<div class="row px-5 justify-content-center align-content-center vh-xxl-25">
-    <div class="col text-center"><img class="my-3 my-xxl-0" src="./assets/imgs/logo_WU.png" alt=""></div>
-    <div class="col text-center"><img class="my-3 my-xxl-0" src="./assets/imgs/logo_SU.png" alt=""></div>
-    <div class="col text-center"><img class="my-3 my-xxl-0" src="./assets/imgs/logo_FI.png" alt=""></div>
-    <div class="col text-center"><img class="my-3 my-xxl-0" src="./assets/imgs/logo_nkust.png" alt=""></div>
-    <div class="col text-center"><img class="my-3 my-xxl-0" src="./assets/imgs/springerlink.png" alt=""></div>
+<div class="my-container">
+    <div class="row px-5 justify-content-center align-content-center vh-xxl-25">
+        <!-- <div class="row px-5 justify-content-center align-content-center vh-xxl-25"> -->
+        <div class="col text-center"><img class="my-3 my-xxl-0" src="./assets/imgs/80/logo_nkust.png" alt=""></div>
+        <div class="col text-center"><img class="my-3 my-xxl-0" src="./assets/imgs/80/logo_Western-Norway-University.png" alt=""></div>
+        <div class="col text-center"><img class="my-3 my-xxl-0" src="./assets/imgs/80/logo_STU.png" alt=""></div>
+        <div class="col text-center"><img class="my-3 my-xxl-0" src="./assets/imgs/80/logo_UBIQUITOUS.jpg" alt=""></div>
+        <div class="col text-center"><img class="my-3 my-xxl-0" src="./assets/imgs/80/springerlink.png" alt=""></div>
+    </div>
 </div>
 <!--左右分割-->
 <!-- <div class="row justify-content-center">
